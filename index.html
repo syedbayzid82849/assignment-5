@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="max-w-screen-xl mx-auto bg-[#f4f7ff]">
+    <!--  header -->
+    <header class="w-full bg-gray-100 py-2">
+        <div class="max-w-screen-xl mx-auto flex items-center justify-between bg-white px-4 py-2 rounded-lg shadow-sm">
+            <!-- Logo and Title -->
+            <div class="flex items-center space-x-2 p-4 text-4xl">
+                <div class="w-6 h-6 flex items-center justify-center bg-blue-500 rounded-md">
+                    <img src="assets/logo.png" alt="">
+                </div>
+                <span class="text-gray-700 font-medium text-lg">
+                    Dev<span class="font-bold">Board</span>
+                </span>
+            </div>
+    
+            <!--Counter and Avatar -->
+            <div class="flex items-center space-x-3">
+                <div class="flex items-center space-x-1 bg-gray-100 px-4 py-2 rounded-full">
+                    <img src="assets/checkbox.png" alt="">
+                    <span class="text-gray-800 font-bold text-2xl pl-1.5">23</span>
+                </div>
+                <div class="bg-gray-100 px-4 py-2 rounded-full">
+                    <a href="#">
+                        <img src="assets/theme-btn.png" alt="Theme Button">
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- main-section -->
+        <section id="main-section">
+            <div>
+                <div class="w-9/12 mx-auto">
+                    <!-- Header Section -->
+                    <div class="grid grid-cols-3 gap-4 items-center bg-white p-4 rounded-xl shadow">
+                        <!-- Task Assigned -->
+                        <div class="flex items-center bg-gray-100 p-4 rounded-lg">
+                            <div class="bg-white p-2 rounded-full shadow">
+                                <img src="assets/check-icon.png" alt="Check" class="w-6 h-6">
+                            </div>
+                            <div class="ml-3">
+                                <p class="text-gray-500 text-sm">Task Assigned</p>
+                                <p class="text-xl font-bold text-gray-800">05</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Center Highlighted Box -->
+                        <div class="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-4 rounded-xl flex items-center justify-center">
+                            <img src="assets/calendar-icon.png" alt="Icon" class="w-8 h-8 mr-3">
+                            <p class="text-lg font-semibold">Discover Something New Today!</p>
+                        </div>
+                        
+                        <!-- Date Section -->
+                        <div class="flex items-center bg-gray-100 p-4 rounded-lg">
+                            <div class="bg-white p-2 rounded-full shadow">
+                                <img src="assets/calendar-icon.png" alt="Calendar" class="w-6 h-6">
+                            </div>
+                            <div class="ml-3">
+                                <p class="text-gray-500 text-sm">Wed,</p>
+                                <p class="text-xl font-bold text-gray-800">Jul 28 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+        </section>
+
+        <!-- aside-section -->
+        <section id="aside-section">
+
+        </section>
+
+    </main>
+</body>
+</html>
